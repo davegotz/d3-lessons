@@ -189,7 +189,7 @@
     <emph>select</emph> the "chart" SVG element and store this selection in a variable.  This is the selection
     we'll use when appending bars to our bar chart.</p>
         <CodeSnippet type="multi" hideCopyButton>&lt;html>
-    <body>
+    &lt;body>
         &lt;script src="https://d3js.org/d3.v7.min.js">&lt;/script>
 
         &lt;svg class="chart" height="300" width="500">

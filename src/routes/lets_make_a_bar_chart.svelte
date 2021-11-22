@@ -15,7 +15,7 @@
         let data = [4, 8, 15, 16, 23, 42];
 
         // Select the chart div which will be the container for the new bar chart
-        let chart = d3.select(".chart");
+        let chart = d3.select(".chart-first");
 
         chart.selectAll("div")
             .data(data)
@@ -95,8 +95,8 @@
     &lt;body>
         &lt;script src="https://d3js.org/d3.v7.min.js">&lt;/script>
 
-        <div class="chart">
-        </div>
+        &lt;div class="chart">
+        &lt;/div>
 
         &lt;script>
             // This is the data array which will be represented as a bar chart.
@@ -127,8 +127,8 @@
     &lt;body>
         &lt;script src="https://d3js.org/d3.v7.min.js">&lt;/script>
 
-        <div class="chart">
-        </div>
+        &lt;div class="chart">
+        &lt;/div>
 
         &lt;script>
             // This is the data array which will be represented as a bar chart.
@@ -174,8 +174,8 @@
     &lt;body>
         &lt;script src="https://d3js.org/d3.v7.min.js"&lt;/script>
 
-        <div class="chart">
-        </div>
+        &lt;div class="chart">
+        &lt;/div>
 
         &lt;script>
             // This is the data array which will be represented as a bar chart.
@@ -206,7 +206,7 @@
         divs have numbers corresponding to the values in the data array, and the width of each bar measured in pixels is
         equal to the values in the data array. Our first bar chart! But it's really narrow... so we still have some work
         to do.</p>
-    <div class="chart">
+    <div class="chart-first">
     </div>
 
 
@@ -240,8 +240,8 @@ let x = d3.scaleLinear()
     &lt;body>
         &lt;script src="https://d3js.org/d3.v7.min.js">&lt;/script>
 
-        <div class="chart">
-        </div>
+        &lt;div class="chart">
+        &lt;/div>
 
         &lt;script>
             // This is the data array which will be represented as a bar chart.
