@@ -8,7 +8,6 @@
     } from "carbon-components-svelte";
     import SiteHeader from "$lib/SiteHeader.svelte";
     import * as d3 from 'd3';
-    import copy from "clipboard-copy";
 
     let count, index, offset, progress;
 
@@ -169,43 +168,44 @@
         we've assigned a height and width to the SVG element.  In this case, we'll create a chart that is 300x500
         pixels in size.</p>
 
-    <CodeSnippet type="multi" copy="{(text) => copy(text)}" code={`<html>
-    <body></body>
-        <script src="https://d3js.org/d3.v7.min.js"></script></script>
+    <CodeSnippet type="multi" hideCopyButton>&lt;html>
+    &lt;body>
+        &lt;script src="https://d3js.org/d3.v7.min.js">&lt;/script>
 
-        <svg class="chart" height="300" width="500">
-        </svg>
+        &lt;svg class="chart" height="300" width="500">
+        &lt;/svg>
 
-        <script>
+        &lt;script>
             // This is the data array which will be represented as a bar chart.
             let data = [4, 8, 15, 16, 23, 42];
-        </script>
-    </body>
-</html>`} />
+        &lt;/script>
+    &lt;/body>
+&lt;/html>
+    </CodeSnippet>
 
     <h3>Creating a D3 Selection</h3>
 
     <p>The next step is exactly the same as it was in our prior lesson. We
     <emph>select</emph> the "chart" SVG element and store this selection in a variable.  This is the selection
     we'll use when appending bars to our bar chart.</p>
-        <CodeSnippet type="multi" copy="{(text) => copy(text)}" code={`<html>
-    <body></body>
-        <script src="https://d3js.org/d3.v7.min.js"></script></script>
+        <CodeSnippet type="multi" hideCopyButton>&lt;html>
+    <body>
+        &lt;script src="https://d3js.org/d3.v7.min.js">&lt;/script>
 
-        <svg class="chart" height="300" width="500">
-        </svg>
+        &lt;svg class="chart" height="300" width="500">
+        &lt;/svg>
 
-        <script>
+        &lt;script>
             // This is the data array which will be represented as a bar chart.
             let data = [4, 8, 15, 16, 23, 42];
 
             // Select the chart svg which will be the container for the new bar chart
             let chart = d3.select(".chart");
-        </script>
+        &lt;/script>
 
-    </body>
-</html>
-`} />
+    &lt;/body>
+&lt;/html>
+        </CodeSnippet>
 
     <h3>Using the D3 Data Join to Add the Bars</h3>
 
@@ -218,14 +218,14 @@
         </p>
 
     <p>Here is the updated example using SVG rects to create a basic bar chart.</p>
-    <CodeSnippet type="multi" copy="{(text) => copy(text)}" code={`<html>
-    <body>
-        <script src="https://d3js.org/d3.v7.min.js"</script>
+    <CodeSnippet type="multi" hideCopyButton>&lt;html>
+    &lt;body>
+        &lt;script src="https://d3js.org/d3.v7.min.js"&lt;/script>
 
-        <svg class="chart" height="300" width="500">
-        </svg>
+        &lt;svg class="chart" height="300" width="500">
+        &lt;/svg>
 
-        <script>
+        &lt;script>
             // This is the data array which will be represented as a bar chart.
             let data = [4, 8, 15, 16, 23, 42];
 
@@ -244,10 +244,10 @@
                     .attr("y", (d,i) => (bar_height+bar_spacing)*i))
                     .attr("height", bar_height)
                     .attr("width", d => d);
-        </script>
-    </body>
-</html>
-`} />
+        &lt;/script>
+    &lt;/body>
+&lt;/html>
+    </CodeSnippet>
 
     <p>Here is the output produced by the code above. We've added a think black border around the SVG element to let you
         see how it takes up 300x400 pixels, but the chart appears only in the top left.  To fix this, we'll want to use
@@ -265,14 +265,14 @@
         set the width of each bar. Now we're going to use D3 scales to make the charts take up the full height and width
         of the SVG element.  Let's create the two scales.</p>
 
-<CodeSnippet type="multi" copy="{(text) => copy(text)}" code={`let x = d3.scaleLinear()
+<CodeSnippet type="multi" hideCopyButton>let x = d3.scaleLinear()
     .domain([0, d3.max(data)])
     .range([0, 500]);
 
 let y = d3.scaleLinear()
     .domain([0,data.length])
     .range([0,300]);
-`} />
+</CodeSnippet>
 
     <p>Now we can use the <code>x</code> scale to map data values to the range 0-500 on the x axis.  For
     the y axis, we can determine the height of a single bar by calculating the difference between y(1) and y(0) (i.e., the
@@ -282,14 +282,14 @@ let y = d3.scaleLinear()
     <p>At ths point, all we need to do is insert these scales into our overall web page and use them when setting the
         position and width of the <code>rect</code>s.</p>
 
-    <CodeSnippet type="multi" copy="{(text) => copy(text)}" code={`<html>
-    <body>
-        <script src="https://d3js.org/d3.v7.min.js"></script>
+    <CodeSnippet type="multi" hideCopyButton>&lt;html>
+    &lt;body>
+        &lt;script src="https://d3js.org/d3.v7.min.js">&lt;/script>
 
-        <svg class="chart" height="300" width="500">
-        </svg>
+        &lt;svg class="chart" height="300" width="500">
+        &lt;/svg>
 
-        <script>
+        &lt;script>
             // This is the data array which will be represented as a bar chart.
             let data = [4, 8, 15, 16, 23, 42];
 
@@ -317,10 +317,10 @@ let y = d3.scaleLinear()
                     .attr("y", (d,i) => y(i))
                     .attr("height", bar_height)
                     .attr("width", d => x(d));
-        </script>
-    </body>
-</html>
-    `} />
+        &lt;/script>
+    &lt;/body>
+&lt;/html>
+    </CodeSnippet>
 
     <p>Nice! Now we have our chart so far! This version will re-scale as new data items are added to the array so that
     it will always fit within the 300x500 SVG area. Sweet!</p>
@@ -335,14 +335,14 @@ let y = d3.scaleLinear()
         to specify these style attributes.</p>
 
 
-    <CodeSnippet type="multi" copy="{(text) => copy(text)}" code={`<html>
-    <body>
-        <script src="https://d3js.org/d3.v7.min.js"></script>
+    <CodeSnippet type="multi" hideCopyButton>&lt;html>
+    &lt;body>
+        &lt;script src="https://d3js.org/d3.v7.min.js">&lt;/script>
 
-        <svg class="chart" height="300" width="500">
-        </svg>
+        &lt;svg class="chart" height="300" width="500">
+        &lt;/svg>
 
-        <script>
+        &lt;script>
             // This is the data array which will be represented as a bar chart.
             let data = [4, 8, 15, 16, 23, 42];
 
@@ -383,10 +383,10 @@ let y = d3.scaleLinear()
                     .attr("x", d => x(d)-text_spacing)
                     .attr("y", (d,i) => y(i)+0.5*bar_height)
                     .text(d => d);
-        </script>
-    </body>
-</html>
-    `} />
+        &lt;/script>
+    &lt;/body>
+&lt;/html>
+    </CodeSnippet>
     <svg class="chart_with_text" height="300" width="500" style="border:1px solid black;">
     </svg>
 
@@ -401,14 +401,14 @@ let y = d3.scaleLinear()
     bar chart uses height to encode values.</p>
 
 
-    <CodeSnippet type="multi" copy="{(text) => copy(text)}" code={`<html>
-    <body>
-        <script src="https://d3js.org/d3.v7.min.js"></script>
+    <CodeSnippet type="multi" hideCopyButton>&lt;html>
+    &lt;body>
+        &lt;script src="https://d3js.org/d3.v7.min.js">&lt;/script>
 
-        <svg class="chart" height="300" width="500">
-        </svg>
+        &lt;svg class="chart" height="300" width="500">
+        &lt;/svg>
 
-        <script>
+        &lt;script>
             // This is the data array which will be represented as a bar chart.
             let data = [4, 8, 15, 16, 23, 42];
 
@@ -450,10 +450,10 @@ let y = d3.scaleLinear()
                 .attr("y", d => y(d)+text_spacing)
                 .text(d => d);
 
-        </script>
-    </body>
-</html>
-    `} />
+        &lt;/script>
+    &lt;/body>
+&lt;/html>
+    </CodeSnippet>
 
     <p>Here is the final chart with vertical bars.</p>
         <svg class="chart_final" height="300" width="500" style="border:1px solid black;">

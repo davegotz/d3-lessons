@@ -83,7 +83,7 @@
     <p>In this example, we will create a bar chart to represent an array of numbers. We'll start with a simple
         array of numbers. Our goal will be to create a bar chart to display these numbers in a web page.</p>
 
-    <CodeSnippet type="multi" copy="{(text) => copy(text)}" code={"let data = [4, 8, 15, 16, 23, 42];"} />
+    <CodeSnippet type="multi" hideCopyButton>let data = [4, 8, 15, 16, 23, 42];</CodeSnippet>
 
     <h3>Data in a Web Page</h3>
 
@@ -91,19 +91,20 @@
         the D3 library is also included since we'll be using that to create the bar chart. By including the D3 library,
         a global variable named <code>d3</code> is defined. That global variable gives
         us access to all of d3's functionality.</p>
-        <CodeSnippet type="multi" copy="{(text) => copy(text)}" code={`<html>
-    <body></body>
-        <script src="https://d3js.org/d3.v7.min.js"></script></script>
+        <CodeSnippet type="multi" hideCopyButton>&lt;html>
+    &lt;body>
+        &lt;script src="https://d3js.org/d3.v7.min.js">&lt;/script>
 
         <div class="chart">
         </div>
 
-        <script>
+        &lt;script>
             // This is the data array which will be represented as a bar chart.
             let data = [4, 8, 15, 16, 23, 42];
-        </script>
-    </body>
-</html>`} />
+        &lt;/script>
+    &lt;/body>
+&lt;/html>
+        </CodeSnippet>
 
     <p>If you look closely at the code above, you will also see that there is a <code>div</code> at the bottom of the
         page with class "chart". This is the place on the page where we'll add the bar chart. We'll accomplish this by
@@ -122,24 +123,24 @@
         the "chart" div, we can reference it as ".chart" as follows: <code>d3.select(".chart")</code>.  The code
         below shows this selection statement within the larger web page.
          </p>
-        <CodeSnippet type="multi" copy="{(text) => copy(text)}" code={`<html>
-    <body></body>
-        <script src="https://d3js.org/d3.v7.min.js"></script></script>
+        <CodeSnippet type="multi" hideCopyButton>&lt;html>
+    &lt;body>
+        &lt;script src="https://d3js.org/d3.v7.min.js">&lt;/script>
 
         <div class="chart">
         </div>
 
-        <script>
+        &lt;script>
             // This is the data array which will be represented as a bar chart.
             let data = [4, 8, 15, 16, 23, 42];
 
             // Select the chart div which will be the container for the new bar chart
             let chart = d3.select(".chart");
-        </script>
+        &lt;/script>
 
-    </body>
-</html>
-`} />
+    &lt;/body>
+&lt;/html>
+</CodeSnippet>
 
 
     <h3>Using the D3 Data Join to Add the Bars</h3>
@@ -169,14 +170,14 @@
     data array.</p>
 
     <p>Here is the entire example so far, and below the code you'll see the output that this code creates.</p>
-    <CodeSnippet type="multi" copy="{(text) => copy(text)}" code={`<html>
-    <body>
-        <script src="https://d3js.org/d3.v7.min.js"</script>
+    <CodeSnippet type="multi" hideCopyButton>&lt;html>
+    &lt;body>
+        &lt;script src="https://d3js.org/d3.v7.min.js"&lt;/script>
 
         <div class="chart">
         </div>
 
-        <script>
+        &lt;script>
             // This is the data array which will be represented as a bar chart.
             let data = [4, 8, 15, 16, 23, 42];
 
@@ -196,10 +197,10 @@
                     .style("margin", "1px")
                     .style("width", d => d+"px")
                     .text(d => d);
-        </script>
-    </body>
-</html>
-`} />
+        &lt;/script>
+    &lt;/body>
+&lt;/html>
+    </CodeSnippet>
 
     <p>Here is the output produced by this code. You'll see we have 6 divs, one for each item in our data array.  The
         divs have numbers corresponding to the values in the data array, and the width of each bar measured in pixels is
@@ -226,22 +227,23 @@
 
     <p>We can define a D3 scale to accomplish this using linear interpolation as shown below. We store our scale in a
         variable named <code>x</code> because it represents the scale for the horizontal x axis of our bar chart.</p>
-<CodeSnippet type="multi" copy="{(text) => copy(text)}" code={`let x = d3.scaleLinear()
+<CodeSnippet type="multi" hideCopyButton>
+let x = d3.scaleLinear()
     .domain([0, d3.max(data)])
     .range([0, 500]);
-`} />
+</CodeSnippet>
 
     <p>All we need to do is insert this scale into our overall web page and use it when setting the width of the
         <code>div</code>s.</p>
 
-    <CodeSnippet type="multi" copy="{(text) => copy(text)}" code={`<html>
-    <body>
-        <script src="https://d3js.org/d3.v7.min.js"></script>
+    <CodeSnippet type="multi" hideCopyButton>&lt;html>
+    &lt;body>
+        &lt;script src="https://d3js.org/d3.v7.min.js">&lt;/script>
 
         <div class="chart">
         </div>
 
-        <script>
+        &lt;script>
             // This is the data array which will be represented as a bar chart.
             let data = [4, 8, 15, 16, 23, 42];
 
@@ -263,10 +265,10 @@
                     .style("margin", "1px")
                     .style("width", d => x(d)+"px")
                     .text(d => d);
-        </script>
-    </body>
-</html>
-    `} />
+        &lt;/script>
+    &lt;/body>
+&lt;/html>
+    </CodeSnippet>
 
     <p>That's it!  Here is what our final chart looks like once we've used a scale to give 500 pixels in width.</p>
     <div class="chart_final">
