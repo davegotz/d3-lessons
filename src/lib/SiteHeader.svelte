@@ -28,6 +28,7 @@
         </HeaderNavMenu>
         <HeaderNavMenu text="Data Joins">
             <HeaderNavItem href="/d3_joins" text="D3 Joins" />
+            <HeaderNavItem href="/d3_more_joins" text="Enter, Update, Exit" />
         </HeaderNavMenu>
         <HeaderNavItem on:click={()=>{open = true}} text="About..." />
     </HeaderNav>
@@ -41,6 +42,7 @@
             </SideNavMenu>
             <SideNavMenu text="Data Joins">
                 <SideNavMenuItem href="/d3_joins" text="D3 Joins" />
+                <SideNavMenuItem href="/d3_more_joins" text="Enter, Update, Exit" />
             </SideNavMenu>
             <SideNavMenuItem on:click={()=>{isSideNavOpen = false; open = true}} text="About..." />
         </SideNavItems>
@@ -55,7 +57,8 @@
         documentation for the D3 library.
     </p>
     <p>
-        Have suggestions? Corrections?  Please visit <a href="https://vaclab.unc.edu/gotz/">David Gotz's website</a> for contact information, and to learn more details about his teaching and
+        Have suggestions? Corrections? Please visit <a href="https://vaclab.unc.edu/gotz/">David Gotz's website</a> for
+        contact information, and to learn more details about his teaching and
         research.
     </p>
 </Modal>
