@@ -392,14 +392,17 @@
                             let data_join_result.join("rect")<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;.style("fill", "black")<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;.attr('x', (d,i) => i*55)<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;.attr('y', 300)<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;.attr("height", (d,i) => d*20)<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;.attr('y', d => 300 - d*20)<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;.attr("height", d => d*20)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;.attr("width", 50);<br/>
                             </span>
                         </code>
                     </div>
+                    <h3>Next Steps...</h3>
                     <p/>
-                    This concludes our introduction to the simplest form of D3 data join.  <a href="d3_more_joins">The next lesson will go
+                    Want to experiment with an interactive version of this program? <a href="https://glitch.com/edit/#!/d3-joins-the-basics">Click here</a>!
+                    <p/>
+                    As mentioned previously, this lesson introduces the simplest form of D3 data join.  <a href="d3_more_joins">The next lesson will go
                         more into joins in more depth</a> by introducing the Enter, Update, and Exit concepts.
                 </section>
             </div>
