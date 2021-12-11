@@ -15,7 +15,7 @@
     let isSideNavOpen, open;
 </script>
 
-<Header persistentHamburgerMenu={true} company="INLS 641" platformName="D3 Lessons" bind:isSideNavOpen>
+<Header persistentHamburgerMenu={true} company="INLS 641" platformName="Visual Analytics Lessons" bind:isSideNavOpen>
     <div slot="skip-to-content">
         <SkipToContent />
     </div>
