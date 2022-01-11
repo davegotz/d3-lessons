@@ -320,7 +320,7 @@
                         rectangles that currently exist in our existing bar chart prior to our update for the new data.
                     <p/>
                     <center>
-                        <img style="height: 200px;" src="/static/select.png">
+                        <img style="height: 200px;" src="/select.png">
                     </center>
                 </section>
                 <section><h3>The Second Step: Data Join to Determine the Enter, Update, and Exit Selections</h3>
@@ -351,7 +351,7 @@
                     </ul>
                     <p/>
                     In this example, the enter selection contains Orange and Black: new colors which need to be added to the visualization.  The exit selection contains Green, Purple, Silver, and Pink: colors that are currently represented in the visualization but which no longer exist in the updated data array.  Finally, the update selection includes Red and Blue: colors which existed in the first data array and continue to exist in the new data array (even if the vote counts have changed).
-                    <center><img style="height: 200px;" src="/static/join.png"></center>
+                    <center><img style="height: 200px;" src="/join.png"></center>
                 </section>
                 <section><h3>The Final Step: Updating the Visualization</h3>
                     As the final step in updating our visualization, we must specify what to do for the three enter,
