@@ -7,14 +7,16 @@
     "preview": "svelte-kit preview",
     "start": "export PORT=8080; node build/index.js"
   },
+  "dependencies": {
+    "clipboard-copy": "^4.0.1",
+    "d3": "^7.3.0",
+    "carbon-components-svelte": "^0.50.1"
+  },
   "devDependencies": {
     "@sveltejs/adapter-node": "^1.0.0-next.55",
     "@sveltejs/adapter-static": "^1.0.0-next.21",
     "@sveltejs/kit": "next",
     "@sveltejs/svelte-scroller": "^2.0.7",
-    "carbon-components-svelte": "^0.50.1",
-    "clipboard-copy": "^4.0.1",
-    "d3": "^7.3.0",
     "svelte": "^3.42.6"
   },
   "type": "module"
