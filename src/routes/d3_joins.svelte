@@ -389,7 +389,7 @@
                             <br/>
                             <span style="font-weight:bold;">
                             // Join the unmatched data items to new rectangles.<br/>
-                            let data_join_result.join("rect")<br/>
+                            data_join_result.join("rect")<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;.style("fill", "black")<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;.attr('x', (d,i) => i*55)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;.attr('y', d => 300 - d*20)<br/>
