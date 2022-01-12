@@ -31,11 +31,12 @@
             <HeaderNavItem href="/d3_more_joins" text="Enter, Update, Exit" />
         </HeaderNavMenu>
         <HeaderNavMenu text="Examples">
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/bf5ac2f5e0a147afb338adfd2d2b4e96" text="Simple Example of D3 Axes" />
+            <HeaderNavItem href="https://bl.ocks.org/davegotz/bf5ac2f5e0a147afb338adfd2d2b4e96" text="X and Y Axes" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/2c9f6e5efc6425290500c7dc0be56703" text="Basic Line Chart" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/75df9c9a2d01adc950301974fb750afd" text="Curved Line Chart" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/e5a018cc2c8edfe143d5137c04f0c347" text="Curved Area Chart" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/a020277b90c5eac4e1de3d8e34396c5b" text="Tooltips" />
+            <HeaderNavItem href="https://bl.ocks.org/davegotz/ef1461a472fa27773fd3ff00683cfec9" text="Choropleth Map of US" />
         </HeaderNavMenu>
         <HeaderNavItem on:click={()=>{open = true}} text="About..." />
     </HeaderNav>
@@ -52,11 +53,12 @@
                 <SideNavMenuItem href="/d3_more_joins" text="Enter, Update, Exit" />
             </SideNavMenu>
             <SideNavMenu text="Examples">
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/bf5ac2f5e0a147afb338adfd2d2b4e96" text="Simple Example of D3 Axes" />
+                <SideNavMenuItem href="https://bl.ocks.org/davegotz/bf5ac2f5e0a147afb338adfd2d2b4e96" text="X and Y Axes" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/2c9f6e5efc6425290500c7dc0be56703" text="Basic Line Chart" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/75df9c9a2d01adc950301974fb750afd" text="Curved Line Chart" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/e5a018cc2c8edfe143d5137c04f0c347" text="Curved Area Chart" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/a020277b90c5eac4e1de3d8e34396c5b" text="Tooltips" />
+                <SideNavMenuItem href="https://bl.ocks.org/davegotz/ef1461a472fa27773fd3ff00683cfec9" text="Choropleth Map of US" />
             </SideNavMenu>
             <SideNavMenuItem on:click={()=>{isSideNavOpen = false; open = true}} text="About..." />
         </SideNavItems>
