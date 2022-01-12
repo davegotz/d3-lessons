@@ -30,6 +30,12 @@
             <HeaderNavItem href="/d3_joins" text="D3 Joins" />
             <HeaderNavItem href="/d3_more_joins" text="Enter, Update, Exit" />
         </HeaderNavMenu>
+        <HeaderNavMenu text="Examples">
+            <HeaderNavItem href="https://bl.ocks.org/davegotz/bf5ac2f5e0a147afb338adfd2d2b4e96" text="Simple Example of D3 Axes" />
+            <HeaderNavItem href="https://bl.ocks.org/davegotz/2c9f6e5efc6425290500c7dc0be56703" text="Basic Line Chart" />
+            <HeaderNavItem href="https://bl.ocks.org/davegotz/75df9c9a2d01adc950301974fb750afd" text="Curved Line Chart" />
+            <HeaderNavItem href="https://bl.ocks.org/davegotz/e5a018cc2c8edfe143d5137c04f0c347" text="Curved Area Chart" />
+        </HeaderNavMenu>
         <HeaderNavItem on:click={()=>{open = true}} text="About..." />
     </HeaderNav>
 
@@ -43,6 +49,12 @@
             <SideNavMenu text="Data Joins">
                 <SideNavMenuItem href="/d3_joins" text="D3 Joins" />
                 <SideNavMenuItem href="/d3_more_joins" text="Enter, Update, Exit" />
+            </SideNavMenu>
+            <SideNavMenu text="Examples">
+                <SideNavMenuItem href="https://bl.ocks.org/davegotz/bf5ac2f5e0a147afb338adfd2d2b4e96" text="Simple Example of D3 Axes" />
+                <SideNavMenuItem href="https://bl.ocks.org/davegotz/2c9f6e5efc6425290500c7dc0be56703" text="Basic Line Chart" />
+                <SideNavMenuItem href="https://bl.ocks.org/davegotz/75df9c9a2d01adc950301974fb750afd" text="Curved Line Chart" />
+                <SideNavMenuItem href="https://bl.ocks.org/davegotz/e5a018cc2c8edfe143d5137c04f0c347" text="Curved Area Chart" />
             </SideNavMenu>
             <SideNavMenuItem on:click={()=>{isSideNavOpen = false; open = true}} text="About..." />
         </SideNavItems>
