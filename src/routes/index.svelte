@@ -35,10 +35,10 @@
         can impede learning. These existing examples may also use special APIs, include syntax specific to a particular platform, or have
         other caveats which can make them problematic for those just getting started.</p>
 
-    <p style="margin-top:1em;">The lessons on this are designed to provide simple examples that are free from special syntax and compatible with
+    <p style="margin-top:1em;">The lessons on this website are designed to provide simple examples that are free from special syntax and compatible with
         a common version of D3 (as used in the current semester of INLS 641). If you are a student and have questions, please ask
         via our classroom forum.</p>
 
     <p style="margin-top:1em;">Visiting these pages but not taking the class? Great! Hopefully you find them helpful.
-        If so, feel free to share these with others!  The more learning the better!</p>
+        If so, feel free to share these with others. The more learning the better!</p>
 </Content>
