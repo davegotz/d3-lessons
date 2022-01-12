@@ -511,7 +511,7 @@
                             <br/>
                             // Join the unmatched data items to new rectangles.<br/>
                             data_join_result.join("rect")<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;.style("fill", (d) => d.color)<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;.style("fill", d => d.color)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;.attr('x', (d,i) => i*55)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;.attr('y', d => 300 - d.votes*20)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;.attr("height", d => d.votes*20)<br/>
@@ -572,7 +572,7 @@
                     <div style="margin:10px; padding:10px; background-color: lightgray">
                         <code>
                             // Perform the data join<br/>
-                            let data_join_result = existing_rects.data(votes, d=>d.colors);<br/>
+                            let data_join_result = existing_rects.data(votes, d => d.colors);<br/>
                         </code>
                     </div>
                     Notice the extra parameter to the .data(...) method: <code>d=>d.colors</code>?  It's a <span style="font-weight:bold;">key function</span> that tells D3 to use the color
@@ -599,13 +599,13 @@
                             // Update the visualization.<br/>
                             data_join_result.join(<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;enter => enter.append("rect")<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.style("fill", (d) => d.color)<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.style("fill", d => d.color)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.attr('x', (d,i) => i*55)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.attr('y', d => 300 - d.votes*20)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.attr("height", d => d.votes*20)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.attr("width", 50),<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;update => update<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.style("fill", (d) => d.color)<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.style("fill", d => d.color)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.attr('y', d => 300 - d.votes*20)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.attr("height", d => d.votes*20),<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;exit => exit<br/>
@@ -633,13 +633,13 @@
                             // Update the visualization.<br/>
                             data_join_result.join(<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;enter => enter.append("rect")<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.style("fill", (d) => d.color)<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.style("fill", d => d.color)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.attr('x', (d,i) => i*55)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.attr('y', d => 300 - d.votes*20)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.attr("height", d => d.votes*20)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.attr("width", 50),<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;update => update<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.style("fill", (d) => d.color)<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.style("fill", d => d.color)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.attr('y', d => 300 - d.votes*20)<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.attr("height", d => d.votes*20),<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;exit => exit<br/>
