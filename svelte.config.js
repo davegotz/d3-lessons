@@ -13,12 +13,12 @@ const config = {
 					precompress: false,
 					env: {
 						path: 'SOCKET_PATH',
-						host: 'HOST',
-						port: 'PORT',
-						base: undefined,
+						host: '0.0.0.0',
+						port: 8080,
+						base: 'http://lessons.vaclab.unc.edu',
 						headers: {
-							protocol: undefined,
-							host: 'host'
+							protocol: 'http',
+							host: '0.0.0.0'
 						}
 					}
 				})
