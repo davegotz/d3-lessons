@@ -37,6 +37,7 @@
             <HeaderNavItem href="https://bl.ocks.org/davegotz/e5a018cc2c8edfe143d5137c04f0c347" text="Curved Area Chart" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/a020277b90c5eac4e1de3d8e34396c5b" text="Tooltips" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/ef1461a472fa27773fd3ff00683cfec9" text="Choropleth Map of US" />
+            <HeaderNavItem href="https://bl.ocks.org/davegotz/1ddaedaadd5122fdce7bb4306708664e" text="Brushing a Scatterplot" />
         </HeaderNavMenu>
         <HeaderNavItem on:click={()=>{open = true}} text="About..." />
     </HeaderNav>
@@ -59,6 +60,7 @@
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/e5a018cc2c8edfe143d5137c04f0c347" text="Curved Area Chart" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/a020277b90c5eac4e1de3d8e34396c5b" text="Tooltips" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/ef1461a472fa27773fd3ff00683cfec9" text="Choropleth Map of US" />
+                <SideNavMenuItem href="https://bl.ocks.org/davegotz/1ddaedaadd5122fdce7bb4306708664e" text="Brushing a Scatterplot" />
             </SideNavMenu>
             <SideNavMenuItem on:click={()=>{isSideNavOpen = false; open = true}} text="About..." />
         </SideNavItems>
