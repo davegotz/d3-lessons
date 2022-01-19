@@ -6,7 +6,22 @@ const config = {
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
-		adapter: node()
+		//adapter: node()
+		adapter: node({
+					// default options are shown
+					out: 'build',
+					precompress: false,
+					env: {
+						path: 'SOCKET_PATH',
+						host: 'HOST',
+						port: 'PORT',
+						base: undefined,
+						headers: {
+							protocol: undefined,
+							host: 'host'
+						}
+					}
+				})
 		//adapter: adapter({
 		//	// default options are shown
 		//	pages: 'build',
