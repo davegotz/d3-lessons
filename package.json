@@ -13,7 +13,7 @@
     "carbon-components-svelte": "^0.50.1"
   },
   "devDependencies": {
-    "@sveltejs/adapter-node": "1.0.0-next.55",
+    "@sveltejs/adapter-node": "1.0.0-next.62",
     "@sveltejs/adapter-static": "^1.0.0-next.21",
     "@sveltejs/kit": "next",
     "@sveltejs/svelte-scroller": "^2.0.7",
