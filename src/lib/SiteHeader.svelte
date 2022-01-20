@@ -31,6 +31,8 @@
             <HeaderNavItem href="/d3_more_joins" text="Enter, Update, Exit" />
         </HeaderNavMenu>
         <HeaderNavMenu text="Examples">
+            <HeaderNavItem href="https://bl.ocks.org/davegotz/1c6a57de799f131e63cdf5ab4fe10d87" text="Bar Chart using HTML" />
+            <HeaderNavItem href="https://bl.ocks.org/davegotz/bc5faf37be4a31e49575d394e9f4b611" text="Bar Chart using SVG" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/bf5ac2f5e0a147afb338adfd2d2b4e96" text="X and Y Axes" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/2c9f6e5efc6425290500c7dc0be56703" text="Basic Line Chart" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/75df9c9a2d01adc950301974fb750afd" text="Curved Line Chart" />
@@ -54,6 +56,8 @@
                 <SideNavMenuItem href="/d3_more_joins" text="Enter, Update, Exit" />
             </SideNavMenu>
             <SideNavMenu text="Examples">
+                <SideNavMenuItem href="https://bl.ocks.org/davegotz/1c6a57de799f131e63cdf5ab4fe10d87" text="Bar Chart using HTML" />
+                <SideNavMenuItem href="https://bl.ocks.org/davegotz/bc5faf37be4a31e49575d394e9f4b611" text="Bar Chart using SVG" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/bf5ac2f5e0a147afb338adfd2d2b4e96" text="X and Y Axes" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/2c9f6e5efc6425290500c7dc0be56703" text="Basic Line Chart" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/75df9c9a2d01adc950301974fb750afd" text="Curved Line Chart" />
