@@ -14,7 +14,6 @@ const config = {
 					env: {
 						path: 'SOCKET_PATH',
 						host: '0.0.0.0',
-						port: 8080,
 						base: 'http://lessons.vaclab.unc.edu',
 						headers: {
 							protocol: 'http',
