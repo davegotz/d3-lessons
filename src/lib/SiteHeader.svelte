@@ -40,6 +40,7 @@
             <HeaderNavItem href="https://bl.ocks.org/davegotz/a020277b90c5eac4e1de3d8e34396c5b" text="Tooltips" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/ef1461a472fa27773fd3ff00683cfec9" text="Choropleth Map of US" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/1ddaedaadd5122fdce7bb4306708664e" text="Brushing a Scatterplot" />
+            <HeaderNavItem href="https://bl.ocks.org/davegotz/c15f68fb7a50c867801373bd2f864fdc" text="D3 Dispatch and Coordinated Views" />
         </HeaderNavMenu>
         <HeaderNavItem on:click={()=>{open = true}} text="About..." />
     </HeaderNav>
@@ -65,6 +66,7 @@
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/a020277b90c5eac4e1de3d8e34396c5b" text="Tooltips" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/ef1461a472fa27773fd3ff00683cfec9" text="Choropleth Map of US" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/1ddaedaadd5122fdce7bb4306708664e" text="Brushing a Scatterplot" />
+                <SideNavMenuItem href="https://bl.ocks.org/davegotz/c15f68fb7a50c867801373bd2f864fdc" text="D3 Dispatch and Coordinated Views" />
             </SideNavMenu>
             <SideNavMenuItem on:click={()=>{isSideNavOpen = false; open = true}} text="About..." />
         </SideNavItems>
