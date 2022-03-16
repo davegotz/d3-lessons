@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://lessons.vaclab.unc.edu/</loc>
+  <lastmod>2022-03-16T01:25:50+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://lessons.vaclab.unc.edu/lets_make_a_bar_chart</loc>
+  <lastmod>2022-03-16T01:25:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lessons.vaclab.unc.edu/lets_make_a_bar_chart_svg</loc>
+  <lastmod>2022-03-16T01:25:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lessons.vaclab.unc.edu/d3_joins</loc>
+  <lastmod>2022-03-16T01:25:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lessons.vaclab.unc.edu/d3_more_joins</loc>
+  <lastmod>2022-03-16T01:25:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
