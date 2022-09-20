@@ -38,8 +38,9 @@
             <HeaderNavItem href="https://bl.ocks.org/davegotz/75df9c9a2d01adc950301974fb750afd" text="Curved Line Chart" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/e5a018cc2c8edfe143d5137c04f0c347" text="Curved Area Chart" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/a020277b90c5eac4e1de3d8e34396c5b" text="Tooltips" />
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/ef1461a472fa27773fd3ff00683cfec9" text="Choropleth Map of US" />
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/c066b21ebd4430ea8d54ba0ad708b78c" text="Choropleth Map of the World" />
+            <HeaderNavItem href="https://bl.ocks.org/davegotz/ef1461a472fa27773fd3ff00683cfec9" text="Choropleth US Map" />
+            <HeaderNavItem href="https://bl.ocks.org/davegotz/6f8a1f052fa467f7ce1f863830d51066" text="Symbol US Map"/>
+            <HeaderNavItem href="https://bl.ocks.org/davegotz/c066b21ebd4430ea8d54ba0ad708b78c" text="Choropleth World Map" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/1ddaedaadd5122fdce7bb4306708664e" text="Brushing a Scatterplot" />
             <HeaderNavItem href="https://bl.ocks.org/davegotz/c15f68fb7a50c867801373bd2f864fdc" text="D3 Dispatch and Coordinated Views" />
         </HeaderNavMenu>
@@ -65,8 +66,9 @@
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/75df9c9a2d01adc950301974fb750afd" text="Curved Line Chart" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/e5a018cc2c8edfe143d5137c04f0c347" text="Curved Area Chart" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/a020277b90c5eac4e1de3d8e34396c5b" text="Tooltips" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/ef1461a472fa27773fd3ff00683cfec9" text="Choropleth Map of US" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/c066b21ebd4430ea8d54ba0ad708b78c" text="Choropleth Map of the World" />
+                <SideNavMenuItem href="https://bl.ocks.org/davegotz/ef1461a472fa27773fd3ff00683cfec9" text="Choropleth US Map" />
+                <SideNavMenuItem href="https://bl.ocks.org/davegotz/6f8a1f052fa467f7ce1f863830d51066" text="Symbol US Map" />
+                <SideNavMenuItem href="https://bl.ocks.org/davegotz/c066b21ebd4430ea8d54ba0ad708b78c" text="Choropleth World Map" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/1ddaedaadd5122fdce7bb4306708664e" text="Brushing a Scatterplot" />
                 <SideNavMenuItem href="https://bl.ocks.org/davegotz/c15f68fb7a50c867801373bd2f864fdc" text="D3 Dispatch and Coordinated Views" />
             </SideNavMenu>
