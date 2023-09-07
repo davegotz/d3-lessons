@@ -31,20 +31,20 @@
             <HeaderNavItem href="/d3_more_joins" text="Enter, Update, Exit" />
         </HeaderNavMenu>
         <HeaderNavMenu text="Examples">
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/1c6a57de799f131e63cdf5ab4fe10d87" text="Bar Chart using HTML" />
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/bc5faf37be4a31e49575d394e9f4b611" text="Bar Chart using SVG" />
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/bf5ac2f5e0a147afb338adfd2d2b4e96" text="X and Y Axes" />
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/2c9f6e5efc6425290500c7dc0be56703" text="Basic Line Chart" />
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/75df9c9a2d01adc950301974fb750afd" text="Curved Line Chart" />
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/e5a018cc2c8edfe143d5137c04f0c347" text="Curved Area Chart" />
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/a020277b90c5eac4e1de3d8e34396c5b" text="Tooltips" />
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/c066b21ebd4430ea8d54ba0ad708b78c" text="Choropleth World Map" />
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/ef1461a472fa27773fd3ff00683cfec9" text="Choropleth US Map" />
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/b40382ae2d21734109901c9cb683f7ce" text="Choropleth NC Map" />
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/01b034218686c5486082996e5218fd2c" text="Street Map for Chapel Hill, NC" />
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/6f8a1f052fa467f7ce1f863830d51066" text="Symbol US Map"/>
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/1ddaedaadd5122fdce7bb4306708664e" text="Brushing a Scatterplot" />
-            <HeaderNavItem href="https://bl.ocks.org/davegotz/c15f68fb7a50c867801373bd2f864fdc" text="D3 Dispatch and Coordinated Views" />
+            <HeaderNavItem href="https://blocks.roadtolarissa.com/davegotz/1c6a57de799f131e63cdf5ab4fe10d87" text="Bar Chart using HTML" />
+            <HeaderNavItem href="https://blocks.roadtolarissa.com/davegotz/bc5faf37be4a31e49575d394e9f4b611" text="Bar Chart using SVG" />
+            <HeaderNavItem href="https://blocks.roadtolarissa.com/davegotz/bf5ac2f5e0a147afb338adfd2d2b4e96" text="X and Y Axes" />
+            <HeaderNavItem href="https://blocks.roadtolarissa.com/davegotz/2c9f6e5efc6425290500c7dc0be56703" text="Basic Line Chart" />
+            <HeaderNavItem href="https://blocks.roadtolarissa.com/davegotz/75df9c9a2d01adc950301974fb750afd" text="Curved Line Chart" />
+            <HeaderNavItem href="https://blocks.roadtolarissa.com/davegotz/e5a018cc2c8edfe143d5137c04f0c347" text="Curved Area Chart" />
+            <HeaderNavItem href="https://blocks.roadtolarissa.com/davegotz/a020277b90c5eac4e1de3d8e34396c5b" text="Tooltips" />
+            <HeaderNavItem href="https://blocks.roadtolarissa.com/davegotz/c066b21ebd4430ea8d54ba0ad708b78c" text="Choropleth World Map" />
+            <HeaderNavItem href="https://blocks.roadtolarissa.com/davegotz/ef1461a472fa27773fd3ff00683cfec9" text="Choropleth US Map" />
+            <HeaderNavItem href="https://blocks.roadtolarissa.com/davegotz/b40382ae2d21734109901c9cb683f7ce" text="Choropleth NC Map" />
+            <HeaderNavItem href="https://blocks.roadtolarissa.com/davegotz/01b034218686c5486082996e5218fd2c" text="Street Map for Chapel Hill, NC" />
+            <HeaderNavItem href="https://blocks.roadtolarissa.com/davegotz/6f8a1f052fa467f7ce1f863830d51066" text="Symbol US Map"/>
+            <HeaderNavItem href="https://blocks.roadtolarissa.com/davegotz/1ddaedaadd5122fdce7bb4306708664e" text="Brushing a Scatterplot" />
+            <HeaderNavItem href="https://blocks.roadtolarissa.com/davegotz/c15f68fb7a50c867801373bd2f864fdc" text="D3 Dispatch and Coordinated Views" />
         </HeaderNavMenu>
         <HeaderNavItem on:click={()=>{open = true}} text="About..." />
     </HeaderNav>
@@ -61,20 +61,20 @@
                 <SideNavMenuItem href="/d3_more_joins" text="Enter, Update, Exit" />
             </SideNavMenu>
             <SideNavMenu text="Examples">
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/1c6a57de799f131e63cdf5ab4fe10d87" text="Bar Chart using HTML" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/bc5faf37be4a31e49575d394e9f4b611" text="Bar Chart using SVG" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/bf5ac2f5e0a147afb338adfd2d2b4e96" text="X and Y Axes" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/2c9f6e5efc6425290500c7dc0be56703" text="Basic Line Chart" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/75df9c9a2d01adc950301974fb750afd" text="Curved Line Chart" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/e5a018cc2c8edfe143d5137c04f0c347" text="Curved Area Chart" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/a020277b90c5eac4e1de3d8e34396c5b" text="Tooltips" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/c066b21ebd4430ea8d54ba0ad708b78c" text="Choropleth World Map" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/ef1461a472fa27773fd3ff00683cfec9" text="Choropleth US Map" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/b40382ae2d21734109901c9cb683f7ce" text="Choropleth NC Map" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/01b034218686c5486082996e5218fd2c" text="Street Map for Chapel Hill, NC" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/6f8a1f052fa467f7ce1f863830d51066" text="Symbol US Map" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/1ddaedaadd5122fdce7bb4306708664e" text="Brushing a Scatterplot" />
-                <SideNavMenuItem href="https://bl.ocks.org/davegotz/c15f68fb7a50c867801373bd2f864fdc" text="D3 Dispatch and Coordinated Views" />
+                <SideNavMenuItem href="https://blocks.roadtolarissa.com/davegotz/1c6a57de799f131e63cdf5ab4fe10d87" text="Bar Chart using HTML" />
+                <SideNavMenuItem href="https://blocks.roadtolarissa.com/davegotz/bc5faf37be4a31e49575d394e9f4b611" text="Bar Chart using SVG" />
+                <SideNavMenuItem href="https://blocks.roadtolarissa.com/davegotz/bf5ac2f5e0a147afb338adfd2d2b4e96" text="X and Y Axes" />
+                <SideNavMenuItem href="https://blocks.roadtolarissa.com/davegotz/2c9f6e5efc6425290500c7dc0be56703" text="Basic Line Chart" />
+                <SideNavMenuItem href="https://blocks.roadtolarissa.com/davegotz/75df9c9a2d01adc950301974fb750afd" text="Curved Line Chart" />
+                <SideNavMenuItem href="https://blocks.roadtolarissa.com/davegotz/e5a018cc2c8edfe143d5137c04f0c347" text="Curved Area Chart" />
+                <SideNavMenuItem href="https://blocks.roadtolarissa.com/davegotz/a020277b90c5eac4e1de3d8e34396c5b" text="Tooltips" />
+                <SideNavMenuItem href="https://blocks.roadtolarissa.com/davegotz/c066b21ebd4430ea8d54ba0ad708b78c" text="Choropleth World Map" />
+                <SideNavMenuItem href="https://blocks.roadtolarissa.com/davegotz/ef1461a472fa27773fd3ff00683cfec9" text="Choropleth US Map" />
+                <SideNavMenuItem href="https://blocks.roadtolarissa.com/davegotz/b40382ae2d21734109901c9cb683f7ce" text="Choropleth NC Map" />
+                <SideNavMenuItem href="https://blocks.roadtolarissa.com/davegotz/01b034218686c5486082996e5218fd2c" text="Street Map for Chapel Hill, NC" />
+                <SideNavMenuItem href="https://blocks.roadtolarissa.com/davegotz/6f8a1f052fa467f7ce1f863830d51066" text="Symbol US Map" />
+                <SideNavMenuItem href="https://blocks.roadtolarissa.com/davegotz/1ddaedaadd5122fdce7bb4306708664e" text="Brushing a Scatterplot" />
+                <SideNavMenuItem href="https://blocks.roadtolarissa.com/davegotz/c15f68fb7a50c867801373bd2f864fdc" text="D3 Dispatch and Coordinated Views" />
             </SideNavMenu>
             <SideNavMenuItem on:click={()=>{isSideNavOpen = false; open = true}} text="About..." />
         </SideNavItems>
